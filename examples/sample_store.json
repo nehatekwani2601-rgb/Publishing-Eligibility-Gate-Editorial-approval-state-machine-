@@ -1,0 +1,41 @@
+{
+  "post-001": {
+    "id": "post-001",
+    "title": "Q3 Market Overview Thread",
+    "state": "PUBLISHED",
+    "created_at": "2026-11-13T01:00:00+00:00",
+    "updated_at": "2026-11-13T01:30:00+00:00",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp_utc": "2026-11-13T01:00:00+00:00",
+        "from_state": "NONE",
+        "to_state": "DRAFT",
+        "actor": "analyst",
+        "reason": "Initial creation"
+      },
+      {
+        "timestamp_utc": "2026-11-13T01:10:00+00:00",
+        "from_state": "DRAFT",
+        "to_state": "PENDING_REVIEW",
+        "actor": "analyst",
+        "reason": ""
+      },
+      {
+        "timestamp_utc": "2026-11-13T01:20:00+00:00",
+        "from_state": "PENDING_REVIEW",
+        "to_state": "APPROVED",
+        "actor": "editor",
+        "reason": "Verified"
+      },
+      {
+        "timestamp_utc": "2026-11-13T01:30:00+00:00",
+        "from_state": "APPROVED",
+        "to_state": "PUBLISHED",
+        "actor": "publisher_bot",
+        "reason": ""
+      }
+    ]
+  }
+}
+
